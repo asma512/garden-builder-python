@@ -13,8 +13,9 @@ while True:
     choice = input("Choose an option (1-4): ")
 
     if choice == "1":
-        flower = input("Enter flower name: ")
+        flower = input("Enter flower name: ").capitalize()
         garden.append(flower)
+        print(f"{flower} added")
     
     elif choice == "2":
         if len(garden) == 0:
@@ -25,6 +26,9 @@ while True:
                 print("-", f)
 
     elif choice == "3":
-        flower = input("Enter flower name to remove: ")
+        flower = input("Enter flower name to remove: ").capitalize()
         if flower in garden:
             garden.remove(flower)
+            print(f"{flower} removed")
+        else:
+            print("Flower not found")
