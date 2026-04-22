@@ -15,3 +15,8 @@ while True:
     if choice == "1":
         flower = input("Enter flower name: ")
         garden.append(flower)
+    
+    elif choice == "2":
+        print("Your garden:")
+        for f in garden:
+            print("-", f)
