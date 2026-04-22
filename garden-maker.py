@@ -32,3 +32,9 @@ while True:
             print(f"{flower} removed")
         else:
             print("Flower not found")
+    
+    elif choice == "4":
+        print("Goodbye!")
+        break
+    else:
+        print("Invalid choice")
