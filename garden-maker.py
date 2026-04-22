@@ -17,6 +17,9 @@ while True:
         garden.append(flower)
     
     elif choice == "2":
-        print("Your garden:")
-        for f in garden:
-            print("-", f)
+        if len(garden) == 0:
+            print("Your garden is empty")
+        else:
+            print("Your garden:")
+            for f in garden:
+                print("-", f)
