@@ -15,6 +15,14 @@ Additionally, I created a **`refactor/add-folder-structure`**  branch to improve
 Each branch was created from `main`, worked on independently, and then merged back using a Pull Request. This keeps changes clean and easy to review.
 
 ---
+### ⚙️ Setup Instructions
+
+To run the project locally:
+
+git clone https://github.com/asma512/garden-builder-python.git
+cd garden-builder-python
+python src/garden-maker.py
+
 
 ### 💻 Code Explanation
 
@@ -42,10 +50,6 @@ Each option triggers a different block of code:
 * **Remove flower**: removes a flower if it exists in the list
 * **Exit**: stops the loop and ends the program
 
-I also added:
-
-* Input normalization (capitalization) so “rose” and “Rose” are treated the same
-* Basic validation so invalid menu choices show a message instead of breaking the program
 
 ---
 
@@ -61,5 +65,4 @@ If this were a real production app, I would:
 
 ---
 
-This project is a simple but solid example of basic Python logic, user input handling, and state management in a CLI application.
 
