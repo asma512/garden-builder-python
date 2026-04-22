@@ -23,3 +23,8 @@ while True:
             print("Your garden:")
             for f in garden:
                 print("-", f)
+
+    elif choice == "3":
+        flower = input("Enter flower name to remove: ")
+        if flower in garden:
+            garden.remove(flower)
