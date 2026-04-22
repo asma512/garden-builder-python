@@ -3,3 +3,6 @@
 garden = []
 
 print("Welcome to the Garden Maker!")
+
+while True:
+    pass
