@@ -11,3 +11,7 @@ while True:
     print("4. Exit")
 
     choice = input("Choose an option (1-4): ")
+
+    if choice == "1":
+        flower = input("Enter flower name: ")
+        garden.append(flower)
