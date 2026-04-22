@@ -10,6 +10,8 @@ I created a feature branch called **`feature/implement-garden-builder`** to buil
 
 I also created a separate branch called **`docs/update-readme`** to update documentation without mixing it with code changes.
 
+Additionally, I created a **`refactor/add-folder-structure`**  branch to improve the project layout by adding src folder to hold python code
+
 Each branch was created from `main`, worked on independently, and then merged back using a Pull Request. This keeps changes clean and easy to review.
 
 ---
